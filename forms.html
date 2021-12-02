@@ -1,33 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=h, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form action="">
-        <label for="name">name:</label>
-        <input type="text" name="firstname" placeholder="name" id="name"/><br/>
-        <label for="email">email:</label>
-        <input type="emai" name="emailid" id="email"><br/>
-        <label for="phone">phone:</label>
-        <input type="number" name="phoneNo" id="phone"><br />
-        <label for="section">section:</label>
-        <input type="radio" name="section" id="section"/> A <br />
-        <input type="radio" name="section" id="section"/> B  <br />
-        <label for="dob">DOB:</label>
-        <input type="date" id="dob" name="dob"><br />
-        <label for="agree">do you agree?</label>
-        <input type="checkbox"name="agreebox" id="agree"><br />
-        <label for="favfood">favv food:</label>
-        <select name="" id="favfood">
-       
-        <option value="pizzaa">pizzaa</option>
-        <option value="burger">burger</option>
-        <option value="anyone">anyone</option>
-        <input type="submit" name="submit" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+ 
+    <h1>forms</h1>
+    <form action="index.html">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        name="Name"
+        placeholder="Enter your name"
+        id="name"
+        required
+      />
+      <br /><br />
+      <label for="emailid">Email address</label>
+      <input
+        type="email"
+        name="Email"
+        placeholder="Enter Your Email"
+        id="emailid"
+        required
+      /><br /><br />
+      <label for="pass">Password</label>
+      <input
+        type="password"
+        name="Password"
+        placeholder="Enter your password"
+        id="pass"
+        required
+      /><br /><br />
+
+      <p>Language</p>
+      <input type="radio" id="radio1" name="language" value="react" />
+      <label for="radio1">React</label>
+      <br />
+      <input type="radio" id="radio2" name="language" value="angular" />
+      <label for="radio2">Angular</label>
+      <br />
+      <input type="radio" id="radio3" name="language" value="vue" />
+      <label for="radio3">Vue</label>
+
+     
+      <p>Course</p>
+      <input type="checkbox" id="check1" name="course1" value="mern" required/>
+      <label for="check1">MERN</label>
+      <br />
+      <input type="checkbox" id="check2" name="course2" value="mern" required/>
+      <label for="check2">MERN</label>
+      <br />
+      <input type="checkbox" id="check3" name="course3" value="mern" />
+      <label for="check3">MERN</label>
+      <br /><br />
+
+
+
+
+      
+     <label for="flds">Field:</label><br>
+     <select name="field" id="flds">
+         <option value="frontend">Frontend</option>
+         <option value="backend">Backend</option>
+         <option value="fullstack">Full Stack</option>
+     </select><br><br>
+
+
+
+
+
+     
+      <label for="text"></label>
+      <textarea name="story" id="text" cols="30" rows="10"></textarea>
+      <br />
+      <br />
+      <label for="number">Phone Number</label>
+      <input type="number" id="number" name="phoneNo" /><input type="submit" name="Submit" />
     </form>
-</body>
+
+    <br />
+    <br />
+
+    
+    <h1>Tables</h1>
+    <a href="tables.html">Click here</a>
+    
+  </body>
 </html>
